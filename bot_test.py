@@ -1,7 +1,7 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 def start(update, context):
-    update.message.reply_text('Привет! Я ваш эхо-бот.')
+    update.message.reply_text('Привет! Я ваш эхо-бот Раз дав три.')
 
 def echo(update, context):
     received_text = update.message.text
